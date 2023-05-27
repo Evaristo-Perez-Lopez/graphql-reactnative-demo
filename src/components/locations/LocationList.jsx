@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
 
 export default function LocationList() {
 	const { loading, error, data } = useQuery(GET_LOCATIONS);
-	console.log(data);
 	if (loading)
 		return (
 			<View>
