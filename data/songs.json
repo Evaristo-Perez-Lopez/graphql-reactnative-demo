@@ -1,0 +1,49 @@
+{
+	"songs": [
+		{
+			"title": "Set Fire",
+			"artist": "Adele",
+			"album": "21",
+			"year": "2011",
+			"genre": "Pop",
+			"duration": "3:45",
+			"cover": "https://www.adele.com/images/01.jpg"
+		},
+		{
+			"title": "Hello",
+			"artist": "Adele",
+			"album": "25",
+			"year": "2015",
+			"genre": "Pop",
+			"duration": "4:55",
+			"cover": "https://www.adele.com/images/wwa02i.jpg"
+		},
+		{
+			"title": "Someone Like You",
+			"artist": "Adele",
+			"album": "21",
+			"year": "2011",
+			"genre": "Pop",
+			"duration": "4:45",
+			"cover": "https://www.adele.com/images/01.jpg"
+		},
+		{
+			"title": "Rolling in the Deep",
+			"artist": "Adele",
+			"album": "21",
+			"year": "2011",
+			"genre": "Pop",
+			"duration": "3:45",
+			"cover": "https://i.pinimg.com/564x/61/c5/27/61c527966ee6bd62b3787f148004ea55.jpg"
+		},
+		{
+			"title": "Skyfall",
+			"artist": "Adele",
+			"album": "Skyfall",
+			"year": "2012",
+			"genre": "Pop",
+			"duration": "4:45",
+			"cover": "https://static.wikia.nocookie.net/jamesbond/images/7/7b/Adele_-_Skyfall_-_Front.jpg"
+		}
+	]
+}
