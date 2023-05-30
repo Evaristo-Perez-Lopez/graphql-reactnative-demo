@@ -1,13 +1,22 @@
 import React from "react";
 import { View, Text, Button, StyleSheet } from "react-native";
 
-export const HomeScreen = ({navigation}) => {
+export const HomeScreen = ({ navigation }) => {
 	return (
 		<View style={styles.container}>
 			<View style={styles.welcome}>
 				<Text style={styles.welcomeText}>HomeScreen</Text>
 			</View>
-			<Button title="Go to Locations" onPress={() => navigation.pushss("Locations")} />
+			<View style={styles.actionContainer}>
+				<Button
+					title="Go to Locations"
+					onPress={() => navigation.push("Locations")}
+				/>
+				<Button
+					title="Go to ReadQrCodes"
+					onPress={() => navigation.push("QrCodes")}
+				/>
+			</View>
 		</View>
 	);
 };

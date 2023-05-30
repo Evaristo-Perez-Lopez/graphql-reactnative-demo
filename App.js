@@ -6,6 +6,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { HomeScreen } from "./src/screens/HomeScreen";
 import { LocationsScreen } from "./src/screens/LocationsScreen";
+import { ReadQrCodeScreen } from "./src/screens/ReadQrCode.Screen";
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -14,8 +15,13 @@ export default function App() {
 			<ApolloProvider client={apolloClient}>
 				<NavigationContainer>
 					<Stack.Navigator initialRouteName="Home">
-						<Stack.Screen name="Home" component={HomeScreen} options={{headerTitle: "HomeScreen"}} />
+						<Stack.Screen
+							name="Home"
+							component={HomeScreen}
+							options={{ headerTitle: "HomeScreen" }}
+						/>
 						<Stack.Screen name="Locations" component={LocationsScreen} />
+						<Stack.Screen name="QrCodes" component={ReadQrCodeScreen} />
 					</Stack.Navigator>
 				</NavigationContainer>
 				<StatusBar style="auto" />
